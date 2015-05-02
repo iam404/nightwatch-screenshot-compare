@@ -1,0 +1,24 @@
+Picked up JAVA_TOOL_OPTIONS: -javaagent:/usr/share/java/jayatanaag.jar 
+17:09:23.250 INFO - Launching a standalone server
+17:09:23.300 INFO - Java: Oracle Corporation 24.79-b02
+17:09:23.300 INFO - OS: Linux 3.19.0-15-generic amd64
+17:09:23.322 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+17:09:23.400 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: LINUX
+17:09:23.479 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:09:23.480 INFO - Version Jetty/5.1.x
+17:09:23.481 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+17:09:23.482 INFO - Started HttpContext[/selenium-server,/selenium-server]
+17:09:23.482 INFO - Started HttpContext[/,/]
+17:09:23.507 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@53c33ccd
+17:09:23.507 INFO - Started HttpContext[/wd,/wd]
+17:09:23.513 INFO - Started SocketListener on 0.0.0.0:4444
+17:09:23.513 INFO - Started org.openqa.jetty.jetty.Server@1451e300
+17:09:23.823 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Mytest}]])
+17:09:23.842 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Mytest}]
+17:09:28.691 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Mytest}]]
+17:09:28.711 INFO - Executing: [get: http://www.yahoo.com])
+17:09:39.032 INFO - Done: [get: http://www.yahoo.com]
+17:09:39.039 INFO - Executing: [take screenshot])
+17:09:41.785 INFO - Done: [take screenshot]
+17:09:42.406 INFO - Executing: [delete session: 8ab4e3c2-4b3b-4c37-a407-6bd0d94aac27])
+17:09:42.512 INFO - Done: [delete session: 8ab4e3c2-4b3b-4c37-a407-6bd0d94aac27]
