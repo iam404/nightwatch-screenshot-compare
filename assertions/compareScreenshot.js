@@ -3,7 +3,7 @@ var resemble = require('node-resemble-js'),
     fs = require('fs');
 
 exports.assertion = function(filename, expected) {
-    var screenshotPath = 'test/screenshots/',
+    var screenshotPath = 'screenshots/',
         baselinePath = screenshotPath + 'baseline/' + filename,
         resultPath = screenshotPath + 'results/' + filename,
         diffPath = screenshotPath + 'diffs/' + filename;

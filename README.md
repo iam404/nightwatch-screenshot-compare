@@ -1,1 +1,0 @@
-# nightwatch-screenshot-compare
