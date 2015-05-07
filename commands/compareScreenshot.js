@@ -1,7 +1,7 @@
 // commands/compareScreenshot.js
 exports.command = function(filename, expected, callback) {
     var self = this,
-        screenshotPath = 'test/screenshots/',
+        screenshotPath = 'screenshots/',
         resultPath = screenshotPath + 'results/' + filename;
 
     self.saveScreenshot(resultPath, function(response) {

@@ -30,7 +30,7 @@ exports.assertion = function(filename, expected) {
 
     this.value = function(result) {
 console.log(result);
-     result.getDiffImage().pack().pipe(fs.createWriteStream('test/screenshots/diffs/diff.png'));  
+     result.getDiffImage().pack().pipe(fs.createWriteStream('screenshots/diffs/diff.png'));  
 // var diff = new Buffer(result.getImageDataUrl().replace(/data:image\/png;base64,/,''), 'base64');   -->fs.writeFileSync(diffPath, 'diff.png'))
         
 
